@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCircle, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faUserCircle, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import './Messages.css';
 
 const Messages = ({ chatId, isDarkMode, onBack }) => {
@@ -83,8 +83,8 @@ const Messages = ({ chatId, isDarkMode, onBack }) => {
   return (
     <div className={`h-[90vh] flex flex-col ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gray-900'}`}>
       <div className={`navbar ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-blue-500 text-white'} p-4 flex items-center`}>
-        <FontAwesomeIcon icon={faArrowLeft} className="text-2xl mr-2 cursor-pointer" onClick={onBack} />
-        <FontAwesomeIcon icon={faUserCircle} className="text-3xl mr-2" />
+        // <FontAwesomeIcon icon={faArrowLeft} className="text-2xl mr-2 cursor-pointer" onClick={onBack} />
+        // <FontAwesomeIcon icon={faUserCircle} className="text-3xl mr-2" />
         <span className="text-xl">{creator?.name || `User: ${creator?.id}`}</span>
       </div>
       <div className="fixed-date-container bg-white flex justify-center items-center border-none w-full">
