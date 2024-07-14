@@ -116,7 +116,7 @@ const Messages = ({ chatId, isDarkMode, onBack }) => {
                   <strong>{message.sender.name || `User : ${message.sender.id}`}:</strong>
                   <br />
                   {message.message}
-                </span>
+                </span> 
               </div>
             ))}
           </div>
