@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faUser } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
 
 const Contacts = ({ page, onContactClick, isDarkMode }) => {
@@ -50,7 +50,7 @@ const Contacts = ({ page, onContactClick, isDarkMode }) => {
               className={`contact flex text-left py-2 px-1 ${activeChatId === chat.id ? 'active' : ''}`}
               onClick={() => handleContactClick(chat.id)}
             >
-              <FontAwesomeIcon icon={faUser} className="text-gray-600 mr-2" />
+              // <FontAwesomeIcon icon={faUser} className="text-gray-600 mr-2" />
               <span className="truncate">
                 <span className="text-lg">{chat.creator.name || `User: ${chat.creator.id}`}</span>
                 <br />
