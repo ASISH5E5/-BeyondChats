@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Telegram UI Replica
+Introduction
+This project is a pixel-perfect replica of the Telegram messaging application, created as part of an assignment for the position of Frontend React Developer at BeyondChats. The goal was to demonstrate my UI/UX skills and React expertise by replicating the Telegram mobile and desktop views.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technologies Used
+ReactJS: The core framework used for building the application.
+Node Libraries: Various node libraries were used to support the development.
+MUI: Used for UI components to ensure consistency and responsiveness.
+Axios: For making HTTP requests to the provided APIs.
+Features
+Responsive Design: The UI adapts to both desktop and mobile views.
+Dark Mode: Users can switch between light and dark modes.
+Contacts and Messages: Displays a list of contacts and their messages using the provided APIs.
+Navigation: Easy navigation between contacts and messages.
+API Endpoints Used
+Get All Chats:
 
-## Available Scripts
+URL: https://devapi.beyondchats.com/api/get_all_chats?page=1
+Method: GET
+Description: Returns a list of chats (paginated).
+Get Chat Messages:
 
-In the project directory, you can run:
+URL: https://devapi.beyondchats.com/api/get_chat_messages?chat_id=3888
+Method: GET
+Description: Returns a list of messages for a given chat ID.
+How to Run the Project
+Clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/yourusername/telegram-ui-replica.git
+Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+cd telegram-ui-replica
+Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm install
+Start the development server:
 
-### `npm test`
+bash
+Copy code
+npm start
+Open your browser and go to http://localhost:3000 to view the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deployment
+The project is deployed and can be accessed at: Live Demo
 
-### `npm run build`
+Project Structure
+src/: Contains all the source code.
+components/: Contains React components for Contacts, Messages, Header, and Home.
+assets/: Contains images and other static assets.
+styles/: Contains CSS and SCSS files for styling.
+public/: Contains the public assets and the index.html file.
+Future Improvements
+Implementing more features of the Telegram UI.
+Enhancing performance and optimization.
+Adding more detailed error handling and loading states.
+Conclusion
+This project was a great opportunity to showcase my skills in React and UI/UX design. I look forward to receiving feedback and improving based on it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+If you have any questions or need further information, please feel free to contact me via email.
